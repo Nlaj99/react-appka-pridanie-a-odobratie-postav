@@ -1,0 +1,133 @@
+body {
+  color: #ebebeb;
+  background: #182d4f;
+  font-size: 100%;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 2em 0.5em;
+  height: 100vh;
+  line-height: 1.42857143;
+}
+a {
+  color: #ebebeb;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+  max-width: 22em;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 1.125em;
+}
+ul a,
+ul li {
+  display: inline-block;
+}
+.strong,
+strong {
+  color: #f9c029;
+  font-weight: 400;
+}
+li:nth-child(5n + 1) article {
+  background: #3b9ae1;
+}
+li:nth-child(5n + 2) article {
+  background: #f6be00;
+}
+li:nth-child(5n + 3) article {
+  background: #e64134;
+}
+li:nth-child(5n + 4) article {
+  background: #eb70b1;
+}
+li:nth-child(5n + 5) article {
+  background: #0f1a5f;
+}
+.dude {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  justify-items: start;
+  align-items: center;
+}
+article {
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: 700;
+  background: #9f3fa3;
+  border: 0.25em solid transparent;
+  border-radius: 0.5625em;
+  width: 100%;
+  padding: 0.625em 0.5em;
+  transition: 0.15s border-color ease-in-out, 0.15s opacity ease-in-out;
+}
+article strong {
+  color: #fff;
+  font-weight: 300;
+}
+article span {
+  font-weight: 400;
+  opacity: 0.75;
+  display: block;
+}
+.faded {
+  opacity: 0.35;
+}
+.gold {
+  border-color: #ff0;
+}
+.preview {
+  font-weight: 300;
+  font-size: 0.8125em;
+  opacity: 0.5;
+}
+.ctrl {
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  width: 4.25em;
+  padding: 0.75em 1.5em 0.75em 0;
+  text-align: right;
+}
+input.ctrl {
+  border: none;
+  background-color: transparent;
+  padding-left: 1.5em;
+  padding-right: 0;
+  text-align: left;
+}
+.add-new {
+  max-width: 18.75em;
+  margin: 2em auto 3em;
+}
+.add-new input {
+  color: #fff;
+  font-size: 0.875em;
+  background: 0 0;
+  border: none;
+  border-bottom: 0.125em solid rgba(255, 255, 255, 0.9);
+  display: block;
+  margin: 0 auto 0.5em;
+  text-align: center;
+}
+.add-new input:focus {
+  outline: 0;
+}
+.add-new input:first-child {
+  font-weight: 700;
+  max-width: 100%;
+}
+.add-new input:last-child {
+  font-size: 0.8125em;
+  width: 100%;
+}
